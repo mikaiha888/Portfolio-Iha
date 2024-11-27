@@ -26,7 +26,7 @@ const Photo = () => {
           />
         </motion.div>
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+          className="z-100w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Photo = () => {
             cx="253"
             cy="253"
             r="250"
-            stroke="#00ff999"
+            stroke="#00ff99"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -45,9 +45,9 @@ const Photo = () => {
               rotate: [120, 360],
             }}
             transition={{
-              duration:20,
+              duration: 20,
               repeat: Infinity,
-              repeatType: "reverse"
+              repeatType: "reverse",
             }}
           />
         </motion.svg>
